@@ -1,0 +1,100 @@
+        * {
+            padding: 0px;
+            margin: 0px;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-image: url("waterfall.jpg");
+            background-size: cover;
+        }
+
+        .layer {
+            background-color: rgba(0, 0, 0, 0.7);
+            width: 100%;
+            height: 945px;
+        }
+
+        .nav {
+            background-color: white;
+            width: 100%;
+            height: 170px;
+            box-shadow: 5px 5px 15px black;
+        }
+
+        .part {
+            width: 49%;
+            display: inline-block;
+            height: 170px;
+            line-height: 170px;
+            text-align: center;
+        }
+
+        #logo {
+            font-size: 39px;
+            font-weight: 900;
+        }
+
+        .options {
+            display: inline-block;
+            width: 33%;
+            height: 170px;
+            color: slategray;
+            line-height: 170px;
+            font-size: 20px;
+        }
+
+        a {
+            color: slategrey;
+            text-decoration: none;
+        }
+
+        a:hover {
+            color: black;
+            cursor: pointer;
+            font-weight: 700;
+        }
+
+        .front {
+            height: 550px;
+            padding: 100px;
+        }
+
+        #p1 {
+            width: 1300px;
+            color: white;
+            margin: auto;
+            font-size: 35px;
+        }
+
+        #p2 {
+            width: 1300px;
+            color: white;
+            margin: auto;
+            margin-top: 10px;
+            font-size: 35px;
+        }
+
+        #p3 {
+            width: 1300px;
+            color: white;
+            margin: auto;
+            margin-top: 30px;
+            font-size: 35px;
+        }
+
+        #p3 button {
+            padding: 18px;
+            font-size: 18px;
+            width: 200px;
+            color: slategrey;
+            border: 0;
+            border-radius: 5px;
+        }
+
+        #p3 button:hover {
+            color: black;
+            box-shadow: 3px 3px 15px black;
+            cursor: pointer;
+            font-weight: 700;
+        }
